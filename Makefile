@@ -20,4 +20,4 @@ $(TARGET):$(OBJS)
 	chmod u+x $(TARGET)
 
 clean:
-	rm -rf *.o $(TARGET)
+	rm -rf $(OBJS) $(TARGET)
